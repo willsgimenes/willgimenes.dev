@@ -1,6 +1,6 @@
 <template>
     <div id="footer">
-        <p>Brazilian Software Developer based in São Paulo (BR).Senior Front-end engineer at <a href="htttp://www.gympass.com" target="_blank">@gympass</a></p>
+        <p>Brazilian Software Developer based in São Paulo (BR).Senior Front-end engineer at <a href="https://www.gympass.com/" target="_blank">@gympass</a></p>
         <p><a href="https://www.github.com/willsgimenes" target="_blank">Github</a> <a href="https://www.linkedin.com/in/william-gimenes/" target="_blank">Linkedin</a></p>
     </div>
 </template>
