@@ -1,21 +1,21 @@
 <template>
   <div id="app">
-    <HelloWorld msg="William is 🏗 the web!!!"/>
-    <Footer/>
+    <HelloWorld msg="William is 🏗 the web!!!" />
+    <Footer />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from "./components/HelloWorld.vue";
 import Footer from "./components/Footer";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     Footer,
     HelloWorld
   }
-}
+};
 </script>
 
 <style>
