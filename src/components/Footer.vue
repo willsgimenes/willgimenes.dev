@@ -32,6 +32,18 @@ div#footer {
   width: 100%;
 }
 
+a {
+  margin: 0 5px;
+}
+
+a:first-child {
+  margin-left: 0;
+}
+
+a:last-child {
+  margin-right: 0;
+}
+
 p {
   line-height: 1;
 }
