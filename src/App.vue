@@ -35,5 +35,6 @@ body {
   max-height: 100vh;
   flex-direction: column;
   justify-content: center;
+  padding: 0 10px;
 }
 </style>

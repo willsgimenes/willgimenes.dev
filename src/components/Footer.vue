@@ -1,9 +1,7 @@
 <template>
   <div id="footer">
     <p>
-      Brazilian Software Developer based in São Paulo (BR).Senior Front-end
-      engineer at
-      <a href="https://www.gympass.com/" target="_blank">@gympass</a>
+      Brazilian Senior Software Developer based in São Paulo (Brazil).
     </p>
     <p>
       <a href="https://www.github.com/willsgimenes" target="_blank">Github</a>
@@ -23,13 +21,12 @@ export default {
 <style scoped>
 div#footer {
   text-align: left;
-  bottom: 0;
+  bottom: 10px;
   font-size: 14px;
-  left: 20px;
   height: 80px;
-  padding-top: 16px;
+  padding-top: 0px;
   position: absolute;
-  width: 100%;
+  width: calc(100% - 20px);
 }
 
 a {
@@ -45,6 +42,6 @@ a:last-child {
 }
 
 p {
-  line-height: 1;
+  line-height: 1.3;
 }
 </style>
