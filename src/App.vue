@@ -2,7 +2,7 @@
   <div id="app">
     <div class="left"></div>
     <div class="right">
-      <HelloWorld msg="William is 🏗 the web!!!" />
+      <HelloWorld msg="William is 🏗️ the web!!!" />
       <Footer />
       <div class="image-copyright">
         <small>
