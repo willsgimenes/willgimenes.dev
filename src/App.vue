@@ -1,7 +1,18 @@
 <template>
   <div id="app">
-    <HelloWorld msg="William is 🏗 the web!!!" />
-    <Footer />
+    <div class="left"></div>
+    <div class="right">
+      <HelloWorld msg="William is 🏗 the web!!!" />
+      <Footer />
+      <div class="image-copyright">
+        <small>
+          image provided by @bundo at
+          <a href="https://unsplash.com/photos/c-S9qxFxtSQ" target="_blank">
+            unsplash
+          </a>
+        </small>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -33,8 +44,36 @@ body {
   display: flex;
   min-height: 100vh;
   max-height: 100vh;
-  flex-direction: column;
+  flex-direction: row;
+  padding: 0 0;
+  display: flex;
+  width: 100%;
+}
+
+div.left {
+  flex: 0 0 41.666667%;
+  max-width: 41.666667%;
+  background: url("./assets/bg.jpg") rebeccapurple;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+div.right {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  align-items: center;
   justify-content: center;
-  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+div.image-copyright {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
 }
 </style>

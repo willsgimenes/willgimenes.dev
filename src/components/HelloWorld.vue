@@ -13,10 +13,21 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h1 {
-  font-size: 5em;
+  margin: 0;
+}
+
+@media screen and (min-width: 320px) {
+  h1 {
+    font-size: 2em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 3em;
+  }
 }
 
 div.hello {
