@@ -4,12 +4,10 @@
       Senior Software Developer based in São Paulo (Brazil).
     </p>
     <p>
-      <a href="https://www.github.com/willsgimenes" target="_blank">
-        Github
+      <a href="https://www.github.com/willsgimenes" target="_blank">Github</a>
+      <a href="https://www.linkedin.com/in/william-gimenes/" target="_blank">
+        Linkedin
       </a>
-      <a href="https://www.linkedin.com/in/william-gimenes/" target="_blank"
-        >Linkedin</a
-      >
     </p>
   </div>
 </template>
@@ -22,7 +20,13 @@ export default {
 
 <style scoped>
 a {
+  background: url("./../assets/external.svg") no-repeat;
+  background-position: 100% calc(100% - 2px);
+  background-size: 14px 14px;
+  color: #2c3e50;
   margin: 0 5px;
+  padding-right: 20px;
+  text-decoration: none;
 }
 
 a:first-child {

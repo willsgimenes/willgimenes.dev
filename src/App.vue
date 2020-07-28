@@ -75,5 +75,11 @@ div.image-copyright {
   position: absolute;
   bottom: 10px;
   left: 10px;
+  background: url("./assets/external.svg") no-repeat;
+  background-position: 100% calc(100% - 2px);
+  background-size: 14px 14px;
+  margin: 0 5px;
+  padding-right: 20px;
+  text-decoration: none;
 }
 </style>
