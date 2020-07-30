@@ -3,10 +3,13 @@
     <p>
       Senior Software Developer based in São Paulo (Brazil).
     </p>
-    <p>
+    <p id="links">
       <a href="https://www.github.com/willsgimenes" target="_blank">Github</a>
       <a href="https://www.linkedin.com/in/william-gimenes/" target="_blank">
         Linkedin
+      </a>
+      <a href="https://listen.willgimenes.dev" target="_blank">
+        Get a song
       </a>
     </p>
   </div>
@@ -39,6 +42,10 @@ a:last-child {
 
 p {
   line-height: 1.3;
+}
+
+p#links {
+  line-height: 2em;
 }
 
 @media screen and (min-width: 320px) {
