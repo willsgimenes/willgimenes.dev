@@ -6,7 +6,7 @@
       <Footer />
       <div class="image-copyright">
         <small>
-          image provided by @bundo at
+          image from @bundo at
           <a href="https://unsplash.com/photos/c-S9qxFxtSQ" target="_blank">
             unsplash
           </a>
@@ -77,9 +77,18 @@ div.image-copyright {
   left: 10px;
   background: url("./assets/external.svg") no-repeat;
   background-position: 100% calc(100% - 2px);
-  background-size: 14px 14px;
-  margin: 0 5px;
-  padding-right: 20px;
+  background-size: 11px 11px;
+  margin: 0 0px;
+  padding-right: 18px;
   text-decoration: none;
+  font-size: 0.8em;
+}
+
+@media screen and (min-width: 480px) {
+  div.image-copyright {
+    font-size: 0.9em;
+    background-position: 100% calc(100% - 2px);
+    background-size: 14px 14px;
+  }
 }
 </style>
