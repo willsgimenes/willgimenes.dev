@@ -50,10 +50,18 @@ body {
   width: 100%;
 }
 
-div.left {
+.no-webp div.left {
+  background: url("./assets/bg.jpg") rebeccapurple;
+}
+
+.webp div.left {
+  background: url("./assets/bg.webp") rebeccapurple;
+}
+
+.no-webp div.left,
+.webp div.left {
   flex: 0 0 41.666667%;
   max-width: 41.666667%;
-  background: url("./assets/bg.jpg") rebeccapurple;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
