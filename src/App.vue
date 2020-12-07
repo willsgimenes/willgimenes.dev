@@ -6,10 +6,7 @@
       <Footer />
       <div class="image-copyright">
         <small>
-          image from @bundo at
-          <a href="https://unsplash.com/photos/c-S9qxFxtSQ" target="_blank">
-            unsplash
-          </a>
+          Unicorn Gundam (RX-0) at Odaiba DiverCity Tokyo Plaza
         </small>
       </div>
     </div>
@@ -51,11 +48,11 @@ body {
 }
 
 .no-webp div.left {
-  background: url("./assets/bg.jpg") rebeccapurple;
+  background: url("./assets/RX-0.jpg") #efefef;
 }
 
 .webp div.left {
-  background: url("./assets/bg.webp") rebeccapurple;
+  background: url("./assets/RX-0.webp") #efefef;
 }
 
 .no-webp div.left,
@@ -63,7 +60,7 @@ body {
   flex: 0 0 41.666667%;
   max-width: 41.666667%;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-size: cover;
 }
 
@@ -83,10 +80,7 @@ div.image-copyright {
   position: absolute;
   bottom: 10px;
   left: 10px;
-  background: url("./assets/external.svg") no-repeat;
-  background-position: 100% calc(100% - 2px);
-  background-size: 11px 11px;
-  margin: 0 0px;
+  margin: 0 0;
   padding-right: 18px;
   text-decoration: none;
   font-size: 0.8em;
