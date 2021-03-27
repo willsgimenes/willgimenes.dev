@@ -1,5 +1,6 @@
 import {Global, css} from "@emotion/core";
 import React from 'react'
+import '../styles/global.css'
 
 function MyApp({Component, pageProps}) {
     return (
