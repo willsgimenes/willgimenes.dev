@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import * as style from '../styles/global'
 
+import { Link as SCLink } from "@willsgimenes/shibuya/dist";
+
 export default function Home() {
   return (
     <div css={style.body}>
@@ -19,17 +21,13 @@ export default function Home() {
               </p>
               <ul css={style.list}>
                 <li css={style.links}>
-                  <a css={style.link} href="https://www.github.com/willsgimenes" target="_blank">Github</a>
+                  <SCLink inverted external url='https://www.github.com/willsgimenes'>Github</SCLink>
                 </li>
                 <li css={style.links}>
-                  <a css={style.link} href="https://www.linkedin.com/in/william-gimenes/" target="_blank">
-                    Linkedin
-                  </a>
+                  <SCLink inverted external url='https://www.linkedin.com/in/william-gimenes'>Linkedin</SCLink>
                 </li>
                 <li css={style.links}>
-                  <a css={style.link} href="https://listen.willgimenes.dev" target="_blank">
-                    Get a song
-                  </a>
+                  <SCLink inverted external url='https://listen.willgimenes.dev'>Get a song</SCLink>
                 </li>
               </ul>
             </div>
