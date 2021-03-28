@@ -104,25 +104,23 @@ export const link = css`
   }
 `
 
-export const paragraph = css`
-  line-height: 1.7em;
-  font-size: 16px;
-
-  @media screen and (max-width: 480px) {
-    font-size: .8em;
+export const list = css`
+  padding: 0;
+  margin: 16px 0;
+  
+  @media screen and (min-width: 768px) {
+    margin: 0;
   }
 `
 
-export const list = css`
-  margin: 0;
-  padding: 0;
-`
-
 export const links = css`
-  line-height: 1.3em;
+  line-height: 1.6em;
   list-style: none;
+  display: flex;
+  justify-content: center;
 
   @media screen and (min-width: 768px) {
+    line-height: 1.3em;
     display: inline-block;
     margin: 10px;
   }

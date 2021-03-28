@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import * as style from '../styles/global'
 
-import { Link as SCLink } from "@willsgimenes/shibuya/dist";
+import { Link as SCLink, Text } from "@willsgimenes/shibuya/dist";
 
 export default function Home() {
   return (
@@ -14,11 +14,9 @@ export default function Home() {
         <div css={style.app}>
           <div css={style.left} />
           <div css={style.right}>
-            <p css={style.text}>William is 🏗️ the web!!!</p>
+            <Text variant='h1'>William is 🏗️ the web!!!</Text>
             <div>
-              <p css={style.paragraph}>
-                Senior Software Developer based in São Paulo (Brazil).
-              </p>
+              <Text>Senior Software Developer based in São Paulo (Brazil).</Text>
               <ul css={style.list}>
                 <li css={style.links}>
                   <SCLink inverted external url='https://www.github.com/willsgimenes'>Github</SCLink>
