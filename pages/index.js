@@ -30,9 +30,7 @@ export default function Home() {
               </ul>
             </div>
             <div css={style.imageCopyRight}>
-              <small>
-                Unicorn Gundam (RX-0) at Odaiba DiverCity Tokyo Plaza
-              </small>
+              <Text variant='small'>Unicorn Gundam (RX-0) at Odaiba DiverCity Tokyo Plaza</Text>
             </div>
           </div>
         </div>
